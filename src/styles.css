@@ -1,0 +1,59 @@
+html {
+    border-left: lightgrey solid 5px;
+}
+
+body{
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+header{
+    font-size: x-large;
+}
+header, main, footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h1{
+    color: tomato;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mainnav{
+    color: lightgray;
+    text-decoration: underline;
+} 
+#footnav{
+    color: tomato;
+}
+#cont{
+    color: tomato;
+    text-align: right;
+    font-weight: bold;
+}
+article{
+    margin-bottom: 4rem;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 2rem;
+}
+article>p::first-letter{
+    color: lightgray;
+    font-size: 100px;
+    font-weight: bold;
+}
+#copyright{
+    color: lightgray;
+}
